@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>esercizio 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="immagini/favicon.png">
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Registrati</legend>
+
+            <label for="name">nome</label>
+            <input type="text" placeholder="inserisci il nome" required>
+
+            <label for="surname">cognome</label>
+            <input type="text" placeholder="inserisci il tuo cognome" required>
+
+            <label for="email">email</label>
+            <input type="email" placeholder="MatteoRossi@gmail.com" required>
+
+            <label for="password"> password</label>
+            <input type="password" required>
+
+            <label for="date">data</label>
+            <input type="date" required>
+
+            <label for="telephone-number">telefono</label>
+            <input type="text" placeholder="" required>
+
+            <!--gusti musicali-->
+
+            <label class="gusti" for="gusti">gusti musicali</label>
+            <div class="music">
+                <input type="checkbox">
+                <label class="label-music" for="music">pop</label>
+                <div class="music due">
+                    <input type="checkbox" >
+                    <label class="label-music" for="music">jazz</label>
+                </div>
+            </div>
+            <div class="music">
+                <input type="checkbox" >
+                <label class="label-music" for="music">rap</label>
+                <div class="music due">
+                    <input type="checkbox" >
+                    <label class="label-music" for="music">rock</label>
+                </div>
+            </div>
+
+
+
+            <label for="conditions">Termini e condizioni</label>
+            <div class="conditions">
+                <input type="radio" name="selection" value="accetto" required>accetto
+                <input class="space" type="radio" name="selection" value="rifiuto" required>rifiuto
+            </div>
+
+            <button onclick="alert('dati salvati!')" class="submit">iscriviti</button>
+            <input class="submit due"type="reset" value="cancella"></input>
+
+        </fieldset>
+
+
+
+    </form>
+
+
+</body>
+
+</html>

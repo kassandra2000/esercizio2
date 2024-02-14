@@ -1,0 +1,37 @@
+fieldset{
+    width: 200px;
+}
+
+label , input{
+    display: block;
+}
+
+.gusti{
+    display: block;
+    margin-left: 15px;
+}
+
+.music{
+    display: flex; 
+}
+
+.music .due{
+    margin-left: 19px;
+}
+
+.conditions{
+    display: flex;
+}
+
+.space{
+    margin-left: 20px;
+}
+
+.submit{
+    display: inline;
+    margin: 18px;
+}
+
+.due{
+    margin-left: 15px;
+}
